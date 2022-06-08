@@ -4,6 +4,7 @@ import csv
 #  This program browses through a test suite for a combination of keywords by making a subset of the cases that match with the the combination of keywords.
 #  The program goes through all the '.csv' files in a given folder.
 
+
 def wordReader(row, keywrd, new_reader):
     for key in row:
         print
